@@ -16,6 +16,7 @@
 -Uses React state management (useState) for real-time updates
 
 ***  Tech Stack ****
+
   ---⚛️ React JS
   ---🧩 Formik (form handling)
   ---✅ Yup (form validation)
