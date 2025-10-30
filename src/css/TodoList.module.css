@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.todo_app {
+  width: 100%;
+  max-width: 540px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 40px 30px;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.todo_app h2 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.todo_row_container {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+.todo_row_container:hover {
+  transform: scale(1.02);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.add_task {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+}
+
+.add_task::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.add_btn {
+  background: linear-gradient(135deg, #ff6b6b, #ff922b);
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add_btn:hover {
+  background: linear-gradient(135deg, #ff922b, #f43f5e);
+}
+
+.mid_content {
+  display: flex;
+  justify-content: space-between;
+  color: #f0f0f0;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.complete_all, .clear_all {
+  cursor: pointer;
+  transition: color 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+.complete_all:hover {
+  color: #a3e635;
+}
+
+.clear_all:hover {
+  color: #f87171;
+}
+
+/* --------------- TASK LIST -------------------- */
+.task_list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.task_item {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.task_item input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+
+.task_item:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.icon {
+  color: #ddd;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.icon_done {
+  color: #4ade80;
+  transform: scale(1.2);
+}
+
+.delete_icon {
+  color: #f87171;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+.delete_icon:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+
