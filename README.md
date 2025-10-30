@@ -1,40 +1,42 @@
-React To-Do App with Register & Login
+**Register-Login-To-Do-List**
+ A simple React project that allows users to register, log in, and manage a personal To-Do list — all stored locally in the browser using localStorage.
 
-A simple React project that allows users to register, log in, and manage a personal To-Do list — all stored locally in the browser using localStorage.
+## Features :
+-Create an account with name, email, and password
+-Validation handled by Formik + Yup
+-Stores user data securely in browser localStorage
 
- Features
-!Create an account with name, email, and password
+** User Login **
+-Validates existing users from localStorage
+-Redirects successfully logged-in users to the To-Do List page
 
-Validation handled by Formik + Yup
+** To-Do List **
+-Add, edit, complete, and delete tasks
+-Mark all tasks complete or clear completed ones
+-Uses React state management (useState) for real-time updates
 
-Stores user data securely in browser localStorage
+***  Tech Stack ****
+  ---⚛️ React JS
+  ---🧩 Formik (form handling)
+  ---✅ Yup (form validation)
+  ---🌐 React Router DOM (page navigation)
+  ---🎨 Lucide React (icons)
+  ---💅 CSS Modules (modern UI styling)
+  ---💾 LocalStorage (data persistence)
 
-🔐 User Login
+## Project Setup
 
-Validates existing users from localStorage
+# Clone the repository
+git clone https://github.com/your-username/Register-Login-To-Do-List.git
 
-Redirects successfully logged-in users to the To-Do List page
+# Navigate to the project folder
+cd Register-Login-To-Do-List
 
-🗒️ To-Do List
+# Install dependencies
+npm install
 
-Add, edit, complete, and delete tasks
+# Run the app
+npm start
 
-Mark all tasks complete or clear completed ones
 
-Uses React state management (useState) for real-time updates
-
-🧩 Tech Stack
-
-React JS
-
-Formik (form handling)
-
-Yup (form validation)
-
-React Router DOM (page navigation)
-
-Lucide React (icons)
-
-CSS Modules (modern UI styling)
-
-LocalStorage (data persistence)
+ 
