@@ -1,3 +1,5 @@
+#Hosted Link :https://register-login-to-do-list-react-pro.vercel.app/
+
 ## Register-Login-To-Do-List**
 
  A simple React project that allows users to register, log in, and manage a personal To-Do list — all stored locally in the browser using localStorage.
@@ -17,8 +19,11 @@
 -Redirects successfully logged-in users to the To-Do List page
 
 #** To-Do List **
+
 -Add, edit, complete, and delete tasks
+
 -Mark all tasks complete or clear completed ones
+
 -Uses React state management (useState) for real-time updates
 
 ##  Tech Stack ****
@@ -39,21 +44,21 @@
 
 ## Project Setup
 
-#Clone the repository
+# Clone the repository
 
-git clone https://github.com/your-username/Register-Login-To-Do-List.git
+  git clone https://github.com/your-username/Register-Login-To-Do-List.git
 
-#Navigate to the project folder
+# Navigate to the project folder
 
-cd Register-Login-To-Do-List
+  cd Register-Login-To-Do-List
 
- #Install dependencies
+ # Install dependencies
  
-npm install
+  npm install
 
- #Run the app
+ # Run the app
  
-npm start
+   npm start
 
 
  
