@@ -1,13 +1,20 @@
-**Register-Login-To-Do-List**
+
+#**Register-Login-To-Do-List**
+
  A simple React project that allows users to register, log in, and manage a personal To-Do list — all stored locally in the browser using localStorage.
 
 ## Features :
+
 -Create an account with name, email, and password
+
 -Validation handled by Formik + Yup
+
 -Stores user data securely in browser localStorage
 
 ** User Login **
+
 -Validates existing users from localStorage
+
 -Redirects successfully logged-in users to the To-Do List page
 
 ** To-Do List **
@@ -18,25 +25,31 @@
 ***  Tech Stack ****
 
   ---⚛️ React JS
+  
   ---🧩 Formik (form handling)
+  
   ---✅ Yup (form validation)
+  
   ---🌐 React Router DOM (page navigation)
+  
   ---🎨 Lucide React (icons)
+  
   ---💅 CSS Modules (modern UI styling)
+  
   ---💾 LocalStorage (data persistence)
 
 ## Project Setup
 
-# Clone the repository
+Clone the repository
 git clone https://github.com/your-username/Register-Login-To-Do-List.git
 
-# Navigate to the project folder
+Navigate to the project folder
 cd Register-Login-To-Do-List
 
-# Install dependencies
+ Install dependencies
 npm install
 
-# Run the app
+ Run the app
 npm start
 
 
